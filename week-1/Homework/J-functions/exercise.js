@@ -1,7 +1,9 @@
-function halve(number) {
-  // complete the function here
+function LongName(a) {
+
+    return a.length;
+
 }
 
-var result = halve(12);
-
-console.log(result);
+let name = "Annylian";
+let resul = LongName(name);
+console.log(" mi nombre " + name + resul);

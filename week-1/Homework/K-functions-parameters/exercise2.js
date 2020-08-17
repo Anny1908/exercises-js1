@@ -1,5 +1,10 @@
 // Declare your function first
 
-var result = divide(3, 4);
+function div(a, b) {
+
+    return (a / b);
+}
+
+var result = div(3, 4);
 
 console.log(result);

@@ -1,5 +1,9 @@
 // Write your function here
+function nomb(A) {
 
-var greeting = createGreeting("Daniel");
+    return "Hello man " + A;
+}
 
-console.log(greeting);
+let nombre = nomb("Toni");
+
+console.log(nombre);
