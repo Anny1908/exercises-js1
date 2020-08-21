@@ -2,7 +2,7 @@ function getBornYear(age) {
     return 2020 - age;
 }
 
-function getPersonInfo(nama, age) {
+function getPersonInfo(name, age) {
     return name + " - " + getBornYear(age)
 }
 

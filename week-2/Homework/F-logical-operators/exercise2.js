@@ -5,7 +5,49 @@
   Update the code so that you get the expected result.
 */
 
-function isNegative() {}
+function isNegative(nroNegativo) {
+    if (nroNegativo < 0) {
+        return true;
+    } else if (nroNegativo = 5) {
+        return false;
+    } else {
+        return false;
+    }
+
+}
+
+function isBetween5and10(num) {
+
+    if ((num >= 5) && (num <= 10)) {
+
+        return true;
+    } else {
+
+        return false;
+    }
+}
+
+function isShortName(Daniel) {
+
+    if (Daniel = isShortName.length) {
+        return true;
+    } else {
+        return false;
+    }
+
+}
+
+function startsWithD(Daniel) {
+
+    let firstLetter = "Daniel".charAt(0);
+
+    if (firstLetter === firstLetter.toUpperCase()) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
 
 /* 
   DO NOT EDIT BELOW THIS LINE
