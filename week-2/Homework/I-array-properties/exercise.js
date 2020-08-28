@@ -5,9 +5,19 @@
 
 */
 
-function isEmpty(arr) {
-  return; // complete this statement
-}
+function isEmpty(array) {
+
+    if (array.length == 0) {
+
+        return true;
+
+    }
+
+    return false;
+
+}; // complete this statement
+
+
 
 /* 
   DO NOT EDIT BELOW THIS LINE

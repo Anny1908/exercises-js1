@@ -3,3 +3,16 @@
 
 var numbers = [0.1, 0.2, 0.3, 0.4, 0.5];
 
+function double(number) {
+    return number * 2;
+}
+var numbersDoubled = numbers.map(double);
+
+
+var numbersDoubled = numbers.map(function double(number) {
+    return number * 2;
+});
+
+var numbersDoubled = numbers.map(number => {
+    return number * 2
+});

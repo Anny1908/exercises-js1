@@ -1,0 +1,1 @@
+console.log(abracaFunction(newArray => newArray.sort()));

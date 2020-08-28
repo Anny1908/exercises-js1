@@ -7,9 +7,22 @@
 */
 
 let n = 10;
+let string = '';
 
-function sumTillNum(num){
-	//your code here
+function sumTillNum(num) {
+
+    for (let init = 0; init <= n;) {
+        if (init != num) {
+            string += init + ' + ';
+        } else {
+            string += init;
+        }
+        init++; //your code here
+    }
+    return string;
+}
+
+//your code here
 }
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
