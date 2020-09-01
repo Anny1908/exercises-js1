@@ -9,6 +9,25 @@
 
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
+function modulo(number, index) {
+
+    if (number % 3 == 0 && number % 5 == 0) {
+        arr[index] = "FizzBuzz";
+
+    } else if (number % 3 == 0) {
+
+        arr[index] = "Fizz";
+
+    } else if (number % 5 == 0) {
+
+        arr[index] = "Buzz";
+    }
+}
+
+arr.forEach(modulo);
+
+console.log(arr);
+
 /* EXPECTED OUTPUT */
 
 /*
